@@ -30,7 +30,7 @@ module.exports = {
 	plugins: [
 		new CKEditorWebpackPlugin( {
 			languages: [ 'de', 'pl', 'en' ],
-			throwErrorOnMissingTranslation: true,
+			// throwErrorOnMissingTranslation: true,
 			// optimizeBuildForOneLanguage: true,
 			outputDirectory: 'lang'
 		} ),
